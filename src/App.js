@@ -1,24 +1,11 @@
-import logo from './logo.svg';
-import './App.css';
+import '@fortawesome/fontawesome-free/css/all.min.css';
+import React from 'react';
+import Login from './login.js';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <h1>Hellow world..!!</h1>
-        <p>
-        Hii I am Arsh Mirza..
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Login />
     </div>
   );
 }
